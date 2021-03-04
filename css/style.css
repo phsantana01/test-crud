@@ -1,0 +1,199 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+}
+
+.conteudo-principal {
+	background-color: #CCCCCC;
+}
+.cabecalho-container {
+	background: #333;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+
+.cabecalho__logo {
+	width: 12%;
+}
+
+nav {
+	list-style-type: none;
+	margin-right: 10em;
+}
+
+.cabecalho__link a {
+	color: #CCCCCC;
+	text-decoration: none;
+	font-size: 22px;
+}
+
+.cabecalho__link a:hover {
+	color: orange;
+	transition: 1s;
+}
+
+/*tabela*/
+.tabela {
+    margin-top: 2.25rem;
+
+    width: 100%;
+
+    border-radius: 10px;
+    box-shadow:  0 5px 10px #55a6ff38;
+
+    border-collapse: initial;
+
+    text-align: left;
+}
+
+.tabela {
+    margin-top: 2.25rem;
+
+    width: 100%;
+
+    background-color: var(--cor-contraste-claro);
+    border-radius: 10px;
+    box-shadow: var(--sombra);
+
+    border-collapse: initial;
+
+    text-align: left;
+}
+
+.tabela td:first-of-type, .tabela th:first-of-type {
+    padding-left: 1.75rem;
+}
+
+.tabela td:last-of-type, .tabela th:last-of-type {
+    padding-right: 1.75rem;
+}
+
+.tabela thead {
+    font-size: 22px;
+}
+
+.tabela th {
+    padding-top: 1.75rem;
+    padding-bottom: 1.75rem;
+    border-bottom: 1px solid  #d6eaff;
+}
+
+.tabela td {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+
+}
+
+.tabela a {
+	text-decoration: none;
+	color: #000000;
+}
+
+.tabela a:hover {
+	color: orange;
+	transition: 0.5s;
+}
+
+
+.tabela__alinhamento--direita {
+    text-align: right;
+}
+
+.tabela__coluna--p {
+    width: 20%;
+}
+
+.tabela__coluna--m {
+    width: 25%;
+}
+
+.tabela__coluna--g {
+    width: 50%;
+}
+
+.tabela tr:last-of-type td {
+    padding-bottom: 1.75rem;
+}
+
+.tabela__botoes-controle {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.tabela__botoes-controle li:first-of-type {
+    margin-right: 2.25rem;
+}
+
+.td {
+    padding: 1rem;
+}
+
+/*tela cadastro - edição*/
+
+.secao_form {
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    justify-content: space-between;
+    margin-top: 8em;
+}
+
+.secao_form h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.secao_form form {
+    margin-top: 5em;
+}
+
+.formulario {
+    display: flex;
+    flex-flow: column;
+}
+
+.formulario label {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.inputs {
+    margin-top: 1em;
+}
+
+.botao_cadastrar {
+     margin-top: 1em;
+     font-weight: bold;
+     border-radius: 8px;
+}
+
+/*cadastro concluido*/
+
+.cadastro-concluido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5em;
+}
+
+.imagem_concluido {
+    width: 10%;
+}
+
+
+.cadastro-concluido h1 {
+    font-size: 23px;
+}
+
+.cadastro-concluido a {
+    text-decoration: none;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 1em;
+}
+
+.cadastro-concluido a:hover {
+    color:  orange;
+}

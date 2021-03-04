@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Player Crud</title>
+	<meta charset="utf-8" lang="pt-br">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+	<header class="cabecalho-container">
+		<img src="../img/logo-header.png" alt="Logotipo RPG" class="cabecalho__logo">
+		<nav>
+			<li class="cabecalho__link"><a href="players.html">Home</a></li>
+		</nav>
+	</header>
+	<main>
+    <section class="secao_form">
+      <h1>Editar</h1>
+      <form class="formulario" data-type="form" data-form>
+        <div class="inputs">
+          <input type="text" name="nome" data-nome>
+          <label for="nome">Nome</label>
+        </div>
+        
+        <div class="inputs">
+          <input type="email" name="email" data-email>
+          <label for="email">Email</label>
+        </div>
+         <button class="botao_cadastrar" type="submit"class="botao">
+                Editar Player
+         </button>
+    </form>
+    </section>
+
+	</main>
+  <script type="module" src="../controller/edita-player-controller.js"></script>
+</body>
+</html>
